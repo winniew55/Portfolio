@@ -1,0 +1,60 @@
+html { 
+  font-size: 15px; 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color:mistyrose;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  font-family: Georgia, serif;
+  text-align: center;
+  padding: 2rem;
+  margin: 1rem;
+  background-color: seashell;
+  border: 2rem solid navy;
+}
+
+body {
+  font-size: 1rem;
+  padding: 2rem;
+  margin: 2rem;
+  border: 1px;
+  background-color: rosybrown;
+}
+
+a:hover {
+  color:aliceblue;
+}
+
+body h3 {
+  padding: 3rem;
+  margin: 2rem;
+  background-color: lavender;
+  border: 0.5rem solid lightcoral;
+  border-style:dashed;
+  text-align: center;
+}
+
+body nav {
+  font-family: "Times New Roman", Times, serif;
+  padding: 3rem;
+  margin: 5rem;
+  background-color: lightblue;
+  border: 0.5rem solid indigo;
+  border-style:dashed;
+  text-align: center;
+}
+
+body h5 {
+  margin-left: 17rem;
+  text-align: center;
+  background-color: lightgray;
+  height: 2rem;
+  width: 10rem;
+  padding: 1rem;
+  border: 1rem solid lemonchiffon;
+  border-style:double;
+}
+  
