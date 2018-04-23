@@ -1,5 +1,5 @@
 html { 
-  font-size: 15px; 
+  font-size: 20px; 
   font-family: "Comic Sans MS", cursive, sans-serif;
   background-color:mistyrose;
   height: 100%;
@@ -7,54 +7,81 @@ html {
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-family: Georgia, serif;
   text-align: center;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem;
-  background-color: seashell;
-  border: 2rem solid navy;
 }
 
 body {
   font-size: 1rem;
-  padding: 2rem;
-  margin: 2rem;
+  margin: 1rem;
   border: 1px;
   background-color: rosybrown;
 }
 
+.side{
+  display:inline-flex;
+}
+
 a:hover {
   color:aliceblue;
+  transition: all 2s ease 0s;
 }
 
-body h3 {
-  padding: 3rem;
-  margin: 2rem;
-  background-color: lavender;
-  border: 0.5rem solid lightcoral;
-  border-style:dashed;
-  text-align: center;
+.me{
+  text-align: center; 
 }
 
-body nav {
-  font-family: "Times New Roman", Times, serif;
-  padding: 3rem;
-  margin: 5rem;
-  background-color: lightblue;
-  border: 0.5rem solid indigo;
-  border-style:dashed;
-  text-align: center;
+body h2 {
+  font-family: 'Gamja Flower', cursive;
+  font-style: italic;
+  color:darkcyan;
+  width:20rem;
+  margin-left: 10rem;
+  padding:1rem;
 }
 
-body h5 {
-  margin-left: 17rem;
-  text-align: center;
-  background-color: lightgray;
-  height: 2rem;
-  width: 10rem;
+article nav {
+  font-family: 'Gamja Flower', cursive;
+  width:20rem;
+  margin-left: 10rem;
+  padding:1rem;
+}
+
+img{
+  height: 30%;
+  width: 30%;
+}
+
+.min{
   padding: 1rem;
-  border: 1rem solid lemonchiffon;
-  border-style:double;
+  border-style: groove;
+  margin-left: 5rem;
+  margin-top:3rem;
+  height: 50%;
+  width: 60%;
 }
-  
+
+.line{
+  width:100%;
+  height:10rem;
+  position: relative;
+}
+
+.back{
+  position:absolute;
+}
+
+.head{
+  position: relative;
+  text-align: center;
+   color: rgb(74, 94, 355);
+}
+
+.word{
+  position: absolute;
+  bottom: 5rem;
+  left: 20rem;
+}

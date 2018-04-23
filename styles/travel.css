@@ -1,0 +1,125 @@
+html { 
+  font-size: 20px; 
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  background-color:mistyrose;
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-size: 1rem;
+  margin: 1rem;
+  border: 5rem;
+  background-color: rosybrown;
+}
+
+a:hover {
+  color:aliceblue;
+  transition: all 2s ease 0s;
+}
+
+#travel {
+  display: flex;
+  margin: 10vh auto 0;
+  list-style: none;
+  width: 50vmax;
+  font size: 25px; 
+  font-family: 'Lobster', cursive;
+
+}
+
+#travel li {
+  background: rgb(139, 178, 255);
+  border-radius: 20%;
+  text-align: center;
+  line-height: 10vmax;
+  height: 10vmax;
+  width: 10vmax;
+}
+#travel :nth-child(2n) {
+  background: rgb(232, 133, 128);
+}
+  
+  #paris {
+  display: flex;
+  list-style: none;
+  width: 30vmax;
+  margin-left: 15vmax;
+  font size: 15px;
+}
+
+#paris li {
+  background: rgb(139, 178, 255);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 5vmax;
+  height: 5vmax;
+  width: 5vmax;
+}
+#paris :nth-child(1) {
+  background: rgb(232, 133, 128);
+}
+#tower {
+  display: flex;
+  list-style: none;
+  width: 30vmax;
+  margin-left: 10vmax;
+  font size: 15px; 
+}
+
+#tower li {
+  background: rgb(139, 178, 255);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 5vmax;
+  height: 5vmax;
+  width: 5vmax;
+}
+#tower :nth-child(1) {
+  background: rgb(232, 133, 128);
+}
+
+.side{
+  display: inline-flex;
+}
+
+.container{
+  display: inline-flex;
+}
+
+img{
+  width: 30%;
+  height: 40%;
+  margin-left: 5rem;
+}
+.pisa:hover{
+  border-style:double;
+  border: 1rem solid lightblue;
+}
+
+.eiffel:hover{
+  border-style:double;
+  border: 1rem solid lightblue;
+}
+.eiffel{
+  margin-left:10rem;
+}
+
+.pisa{
+  margin-left:10rem;
+
+}
+
+.word{
+  display: inline-flex;
+  font-family: 'Shadows Into Light', cursive;
+}
+
+.word2{
+  margin-left:11rem;
+}
+
+.word3{
+  margin-left:26rem;
+}
+
